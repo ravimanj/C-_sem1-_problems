@@ -1,6 +1,8 @@
+//c code to insert a element in array
 #include<stdio.h>
 int main()
 {
+        //n,pos represents number,position 
     int n,pos,num;
     printf("Enter number of elements: ");
     scanf("%d",&n);
@@ -14,6 +16,7 @@ int main()
     scanf("%d",&num);
     printf("Enter position of elements to be inserted: ");
     scanf("%d",&pos);
+        //prompt  for insertion
     for(int i=n-1;i>=pos-1;i--)
     {
         A[i+1]=A[i];
